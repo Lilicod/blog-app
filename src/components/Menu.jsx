@@ -60,7 +60,7 @@ export const Menu = () => {
       </button>
       <div
         ref={menuRef}
-        className={`z-40 fixed top-0 left-0 bottom- bg-white text-black transition-all overflow-hidden flex flex-col
+        className={`z-40 fixed top-0 left-0 font-poppins bg-white text-black transition-all overflow-hidden flex flex-col
         ${menuOpened ? "w-80 h-[100vh]" : "w-0 h-[100vh]"}`}
       >
         <div className="flex-1 flex items-start justify-start mt-12 text-xl font-semibold flex-col gap-6 px-5 py-8">
