@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export default function Navbar() {
   return (
-    <nav className="flex justify-between items-center py-3 px-2 lg:py-3 lg:px-10 font-poppins">
+    <nav className="flex justify-between items-center py-3 px-2 bg-Gray lg:py-3 lg:px-10 font-poppins">
       <div className="block lg:hidden">
         <Menu />
       </div>
@@ -20,7 +20,7 @@ export default function Navbar() {
       </div>
       <div>
         <Link href={"/"}>
-          <h1 className="text-3xl font-bold hidden lg:block">my blog app</h1>
+          <p className="text-3xl font-bold hidden lg:block">my blog app</p>
         </Link>
       </div>
       <div className="flex flex-row gap-3">

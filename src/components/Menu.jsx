@@ -38,7 +38,7 @@ export const Menu = () => {
       <button
         ref={toggleButtonRef}
         onClick={toggleMenu}
-        className={`z-50  top-3 left-1 p-3 bg-white w-10 h-11 rounded-md ${
+        className={`z-50  top-3 left-1 p-3 bg-transparent w-10 h-11 rounded-md ${
           menuOpened ? "fixed" : "absolute"
         }`}
       >
