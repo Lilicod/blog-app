@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function Hero() {
   return (
-    <div className="flex flex-col gap-8 lg:gap-10 justify-center items-center font-poppins pt-16 lg:pt-28">
+    <div className="lg:h-screen flex flex-col gap-8 lg:gap-10 justify-start lg:justify-center items-center font-poppins pt-16 lg:pt-0">
       <h3 className="text-sm lg:text-xl px-4 lg:px-0 text-center">
         Get inspired by millions of people around the world.
       </h3>
