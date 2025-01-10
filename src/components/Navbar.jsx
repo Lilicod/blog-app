@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export default function Navbar() {
   return (
-    <nav className="flex justify-between items-center py-3 px-2 lg:bg-transparent bg-Gray lg:py-3 lg:px-10 font-poppins">
+    <nav className="flex justify-between items-center py-3 px-2 lg:bg -transparent bg-Gray lg:py-3 lg:px-10 font-poppins">
       <div className="block lg:hidden">
         <Menu />
       </div>
