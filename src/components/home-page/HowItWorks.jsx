@@ -13,7 +13,9 @@ export default function HowItWorks() {
         <HowItWorkCard
           step={"01"}
           title={"Create an account"}
-          summery={"Create an account for free and set up your profile based on your interests."}
+          summery={
+            "Create an account for free and set up your profile based on your interests."
+          }
           rotate={"rotate-12"}
           color={"from-blue-300 to-blue-100"}
         />
@@ -22,7 +24,9 @@ export default function HowItWorks() {
           <HowItWorkCard
             step={"02"}
             title={"Write your story"}
-            summery={"Write your story using our easy to use editor or read stories written by other writers."}
+            summery={
+              "Write your story using our easy to use editor or read stories written by other writers."
+            }
             rotate={"-rotate-6"}
             color={"from-purple-300 to-purple-100"}
           />
@@ -42,7 +46,9 @@ export default function HowItWorks() {
           <HowItWorkCard
             step={"04"}
             title={"Inspire others"}
-            summery={"interact with other writers and readers and get inspired."}
+            summery={
+              "interact with other writers and readers and get inspired."
+            }
             rotate={"-rotate-6"}
             color={"from-blue-300 to-blue-100"}
           />

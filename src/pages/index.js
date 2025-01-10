@@ -4,9 +4,11 @@ import TopicsSection from "@/components/home-page/TopicsSection";
 import Layout from "@/layout/Layout";
 
 export default function Home() {
-  return <Layout>
-    <Hero />
-    <TopicsSection />
-    <HowItWorks />
-  </Layout>;
+  return (
+    <Layout>
+      <Hero />
+      <TopicsSection />
+      <HowItWorks />
+    </Layout>
+  );
 }
